@@ -60,11 +60,10 @@ var prueba = function (rutaAPI,id,buscar) {
         if (!$.isEmptyObject(response)) {
             
             for (var valor in response) {
-                //console.log(valor);
+                
                 for (var item in response["sprites"]) {
                    
                    if (buscar == "si"){
-                    console.log(response);
                     var img2 = document.getElementById('imgPokemonBuscar');
                     img2.src = response.sprites.front_default;
                     }else{
