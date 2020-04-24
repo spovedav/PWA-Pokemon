@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Detalle - Pokemon</title>
+    <meta name="description" content="Pwa para practicar Desarrollo en App Naticas :)">
+
+    <!-- DARLE COLOR A LA BARRA SUPERIRO DE LA PAGINA #ffcc01 -->
+    <meta name="theme-color" content="#ffcc01">
+
+    <!-- ESTO SIRVE PARA DECIRLE A LOS NAVEGADORES QUE ESTE SITIO ESTA OPTIMIZADO PARA MOBILES -->
+    <meta name="MobileOptimizad" content="width">
+    <meta name="HandheldFriendly" content="true">
+
+    <!-- METAETIQUETAS PARA LOS MOBILES Apple  ?? -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <!-- ES PARA LLEMAR EL FAVICON  -->
+    <link rel="shortcut icon" type="image/png" href="./img/favicon.png">
+
+    <!-- ICOMO QUE SE INSTALA DIRECTAMENTE EN EL CELULAR COMO APLCIACION -->
+    <link rel="apple-touch-icon" href="./img/favicon.png">
+    <link rel="apple-touch-startup-image" href="./img/favicon.png">
+
+    <!-- ** IMPORTANTE ** ES EL MANIFIESTO   -->
+    <link rel="manifest" href="./manifest.json">
+
+    <link href="font/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar navbar-light bg-light">
+            <a class="navbar-brand" href="./index.html">
+                <img src="./img/ImagenPokemon2.png" width="120" height="auto" alt="">
+                <span class="navbar-brand mb-0 small">Consumo de Api</span>
+            </a>
+        </nav>
+    </header>
+
+    <p class="text-danger alert-danger alert small">Esto es solo una prueba para praticar <strong>PWA</strong>, Podria
+        hacer peticiones Http por ajax o usar backend
+        <br> <strong>Programdor Semi Senior</strong>
+    </p>
+
+    <div class="container">
+        <h1 class="h3 text-center tex-info mt-3">PWA DE PRUEBA</h1>
+
+        <hr>
+        <hr>
+        <div class="row text-center" id="contenido">
+                <h2 class="ml-3 text-right text-uppercase" id="nombre"></h2>
+                <div class="col-md-6"> <img src="" id="imgPokemon1" alt="" width="200" height="200"></div>
+                <div class="col-md-6"> <img src="" id="imgPokemon2" alt="" width="200" height="200"> </div>
+            <br>
+
+        </div>
+        
+        <p>movimientos</p>
+        <ul id="movimientos" class="mt-2"></ul>
+    </div>
+    <br />
+    <br></br>
+
+
+    <footer class="bg-danger mt-5 text-center"><span class="text-white font-weight-bold">Desarrollo por Stevyn
+            Poveda</span></footer>
+
+    <!-- // ES IMPORTANTE QUE SE PONGA EN ESTE ORDEN -->
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/jquery-3.4.1.js"></script>
+
+    <script src="./js/detalleApi.js"></script>
+</body>
+
+</html>

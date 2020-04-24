@@ -1,0 +1,54 @@
+{
+    "name": "PWA Pokemon spovedav96", 
+    "short_name": "PWA Pokemon spovedav96",
+    "description": "Bienvenido a mi PWA sobre una apliacion de consumo APi de Pokemon",
+    "background_color": "#ffcc01" ,
+    "theme_color": "#375caa",
+    "arientation": "portrait",
+    "display": "standalone",
+    "start_url": "./?utm_source=web_app_manifest",
+    "scope": "./",
+    "lang": "es-MX",
+    "icons:":[
+        {
+            "src": "./img/favicon.png",
+            "sizes": "106x106",
+            "type": "image/png"
+        },
+        {
+            "src": "./img/favicon.png",
+            "sizes": "91x91",
+            "type": "image/png"
+        },
+        {
+            "src": "./img/favicon_68.png",
+            "sizes": "68x68",
+            "type": "image/png"
+        },
+        {
+            "src": "./img/favicon_51.png",
+            "sizes": "51x51",
+            "type": "image/png"
+        },
+        {
+            "src": "./img/favicon_38.png",
+            "sizes": "38x38",
+            "type": "image/png"
+        },
+        {
+            "src": "./img/favicon_29.png",
+            "sizes": "29x29",
+            "type": "image/png"
+        },
+        {
+            "src": "./img/favicon_18.png",
+            "sizes": "18x18",
+            "type": "image/png"
+        },
+        {
+            "src": "./img/favicon.png",
+            "sizes": "16x16",
+            "type": "image/png"
+        }
+    ]
+}          
