@@ -11,12 +11,12 @@
     "lang": "es-MX",
     "icons:":[
         {
-            "src": "./img/favicon.png",
+            "src": "./img/favicon_106.png",
             "sizes": "106x106",
             "type": "image/png"
         },
         {
-            "src": "./img/favicon.png",
+            "src": "./img/favicon_91.png",
             "sizes": "91x91",
             "type": "image/png"
         },
