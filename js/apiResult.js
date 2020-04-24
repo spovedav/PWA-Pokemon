@@ -166,7 +166,7 @@ function api(rutaAPI) {
                 apiNombre(urlNombre,i,count);
             }
         }
-        console.log(pokemon);   
+         
     });
 }
 
